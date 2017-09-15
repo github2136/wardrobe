@@ -25,5 +25,15 @@ dependencies {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
     compile 'com.android.support:appcompat-v7:25.3.1'
+    compile 'com.android.support:recyclerview-v7:25.3.1'
+    compile 'com.jakewharton:butterknife:8.4.0'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:8.4.0'
     testCompile 'junit:junit:4.12'
+    compile 'com.github.github2136.SQLite-util:sqlite-util:b00a5f6ed5'
+    annotationProcessor 'com.github.github2136.SQLite-util:sqlite-util-compiler:b00a5f6ed5'
+//    annotationProcessor 'com.github.github2136.Android-utils:sqlite-util-compiler:57067fba53'
+//    compile 'com.github.github2136.Android-utils:sqlite-util:57067fba53'
+//    annotationProcessor 'com.github.github2136.Android-utils:sqlite-util-compiler:81674db11c'
+//    compile 'com.github.github2136:SQLite-util:acf245fb73'
+    compile 'com.github.github2136:Android-utils:ed5ac09bb9'
 }
